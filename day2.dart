@@ -4,7 +4,6 @@ void main() {
 
   var luas = panjang * lebar;
   var keliling = 2 * (panjang + lebar);
-  var kaliSamaDengan = panjang *= lebar;
 
   //perbandingan//
   var samaDengan = panjang == lebar;
@@ -16,7 +15,6 @@ void main() {
 
   print("Luas Persegi Panjang : $luas cm²");
   print("keliling Persegi Panjang : $keliling cm");
-  print("Berapa hasil panjang dikali lebar? $kaliSamaDengan cm");
   
   print("Panjang sama dengan lebar? $samaDengan");
   print("Panjang tidak sama dengan lebar? $tidakSamaDengan");
