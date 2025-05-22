@@ -2,6 +2,6 @@ import 'dart:io';
 
 void main() {
   print("Masukkan nama kamu");
-  String? namaTeks = stdin.readLineSync();
-  print("Halo $namaTeks !");
+  String? nama = stdin.readLineSync();
+  print("Halo $nama!");
 }
